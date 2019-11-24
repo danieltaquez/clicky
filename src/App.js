@@ -12,6 +12,7 @@ class App extends Component {
     score: 0,
     topscore: 0
   };
+  
 
   restartGame = () => {
     if (this.state.score > this.state.topscore) {
